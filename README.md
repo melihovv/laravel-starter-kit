@@ -10,6 +10,7 @@ Laravel starter kit
 - `Hash::setRounds(5)` in `TestCase.php` for tests speed up
 - `DatabaseTestCase.php` for really fast tests which use database
 - additional helpers
+- custom configs for phpmd and phpcs
 
 ## Installed packages
 - doctrine/dbal
@@ -21,3 +22,6 @@ Laravel starter kit
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
+- enable laravel-plugin
+- enable phpmd and phpcs inspections
+- configure phpunit
