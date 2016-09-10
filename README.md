@@ -1,4 +1,5 @@
 # laravel-starter-kit
+[![styleci](https://styleci.io/repos/67811396/shield)](https://styleci.io/repos/67811396)
 Laravel starter kit
 
 ## Changes
@@ -22,6 +23,6 @@ Laravel starter kit
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
-- enable laravel-plugin
-- enable phpmd and phpcs inspections
-- configure phpunit
+- enable laravel-plugin in PhpStorm
+- enable phpmd and phpcs inspections in PhpStorm
+- configure phpunit in PhpStorm
