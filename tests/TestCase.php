@@ -22,6 +22,8 @@ abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
 
         $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
+        Hash::setRounds(5);
+
         return $app;
     }
 }

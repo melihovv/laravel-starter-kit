@@ -7,6 +7,7 @@ Laravel starter kit
 - `AdditionalMethods` trait for Eloquent models
 - sqlite database connection for in-memory tests
 - `TestHelpers` trait
+- `Hash::setRounds(5)` in `TestCase.php` for tests speed up
 
 ## Installed packages
 - doctrine/dbal
