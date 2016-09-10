@@ -26,6 +26,7 @@
     "autoload-dev": {
         "classmap": [
             "tests/TestCase.php",
+            "tests/DatabaseTestCase.php",
             "tests/TestHelpers.php"
         ]
     },
