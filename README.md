@@ -9,6 +9,7 @@ Laravel starter kit
 - `TestHelpers` trait
 - `Hash::setRounds(5)` in `TestCase.php` for tests speed up
 - `DatabaseTestCase.php` for really fast tests which use database
+- additional helpers
 
 ## Installed packages
 - doctrine/dbal
