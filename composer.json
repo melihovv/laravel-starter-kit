@@ -1,8 +1,4 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
-    "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=5.6.4",
@@ -13,7 +9,11 @@
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~5.0",
         "symfony/css-selector": "3.1.*",
-        "symfony/dom-crawler": "3.1.*"
+        "symfony/dom-crawler": "3.1.*",
+        "barryvdh/laravel-ide-helper": "^2.2",
+        "itsgoingd/clockwork": "^1.12",
+        "garygreen/pretty-routes": "^0.0.1",
+        "doctrine/dbal": "^2.5"
     },
     "autoload": {
         "classmap": [
@@ -41,10 +41,9 @@
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan ide-helper:generate",
+            "php artisan ide-helper:meta",
             "php artisan optimize"
         ]
-    },
-    "config": {
-        "preferred-install": "dist"
     }
 }

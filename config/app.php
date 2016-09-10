@@ -180,6 +180,16 @@ return [
 
     ],
 
+    'local_providers' => [
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Clockwork\Support\Laravel\ClockworkServiceProvider::class,
+        PrettyRoutes\ServiceProvider::class,
+    ],
+
+    'local_aliases' => [
+        'Clockwork' => Clockwork\Support\Laravel\Facade::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Class Aliases
