@@ -5,6 +5,7 @@ Laravel starter kit
 - `local_providers` and `local_aliases` keys in config/app.php
 - `app/User.php` move to `app/Models/User.php`
 - `AdditionalMethods` trait for Eloquent models
+- sqlite database connection for in-memory tests
 
 ## Installed packages
 - doctrine/dbal
