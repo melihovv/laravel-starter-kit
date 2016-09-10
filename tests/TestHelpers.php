@@ -6,7 +6,7 @@ trait TestHelpers
 {
     /**
      * @param string $method
-     * @param array $args
+     * @param array  $args
      *
      * @return mixed
      */
@@ -16,7 +16,7 @@ trait TestHelpers
             return $this->call($method, $args[0]);
         }
 
-        throw new BadMethodCallException;
+        throw new BadMethodCallException();
     }
 
     /**
@@ -28,15 +28,16 @@ trait TestHelpers
     {
         $mock = Mockery::mock($class);
         $this->app->instance($class, $mock);
+
         return $mock;
     }
 
     /**
      * Call protected/private method of a class.
      *
-     * @param object &$object Instantiated object that we will run method on.
+     * @param object &$object    Instantiated object that we will run method on.
      * @param string $methodName Method name to call
-     * @param array $parameters Array of parameters to pass into method.
+     * @param array  $parameters Array of parameters to pass into method.
      *
      * @return mixed Method return.
      */
