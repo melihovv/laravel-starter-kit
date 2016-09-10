@@ -6,6 +6,7 @@ Laravel starter kit
 - `app/User.php` move to `app/Models/User.php`
 - `AdditionalMethods` trait for Eloquent models
 - sqlite database connection for in-memory tests
+- `TestHelpers` trait
 
 ## Installed packages
 - doctrine/dbal
