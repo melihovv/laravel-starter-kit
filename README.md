@@ -1,5 +1,6 @@
 # laravel-starter-kit
 [![styleci](https://styleci.io/repos/67811396/shield)](https://styleci.io/repos/67811396)
+
 Laravel starter kit
 
 ## Changes
