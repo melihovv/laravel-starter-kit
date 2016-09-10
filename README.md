@@ -9,3 +9,8 @@ Laravel starter kit
 - barryvdh/laravel-ide-helper
 - itsgoingd/clockwork
 - garygreen/pretty-routes
+
+## Things you probably want to change manually
+- name of your app in config/app.php
+- timezone in config/app.php
+- locale in config/app.php
