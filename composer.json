@@ -4,7 +4,6 @@
     "php": ">=5.6.4",
     "laravel/framework": "5.3.*",
     "fadion/sanitizer": "^1.0",
-    "asvae/laravel-api-tester": "^2.0",
     "dingo/api": "1.0.x@dev"
   },
   "require-dev": {
@@ -16,7 +15,8 @@
     "barryvdh/laravel-ide-helper": "^2.2",
     "itsgoingd/clockwork": "^1.12",
     "garygreen/pretty-routes": "^0.0.1",
-    "doctrine/dbal": "^2.5"
+    "doctrine/dbal": "^2.5",
+    "asvae/laravel-api-tester": "^2.0"
   },
   "autoload": {
     "classmap": [

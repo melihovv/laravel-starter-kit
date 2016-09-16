@@ -4,59 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "51f2ee5860bc6ad4a1e99b58474e78e9",
-    "content-hash": "8d68a4603d4de4f675c008b4b8c766d3",
+    "hash": "ccb94a5db0c18907fbbea04f1ef34f20",
+    "content-hash": "b21638555b21b8e788c8a0b3787ca943",
     "packages": [
-        {
-            "name": "asvae/laravel-api-tester",
-            "version": "2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/asvae/laravel-api-tester.git",
-                "reference": "0132f11e0b09afe8c41b21e75565727762600dad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/asvae/laravel-api-tester/zipball/0132f11e0b09afe8c41b21e75565727762600dad",
-                "reference": "0132f11e0b09afe8c41b21e75565727762600dad",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "laravel/framework": "5.2.*",
-                "mockery/mockery": "^0.9.5",
-                "phpunit/phpunit": "~4.0"
-            },
-            "suggest": {
-                "firebase/token-generator": "Token generator for firebase",
-                "ktamas77/firebase-php": "Keep your requests stored in cloud"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Asvae\\ApiTester\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yauheni Prakopchyk",
-                    "email": "ontrew@gmail.com"
-                }
-            ],
-            "description": "Api tester for Laravel Framework",
-            "keywords": [
-                "api",
-                "debug",
-                "laravel"
-            ],
-            "time": "2016-09-08 12:05:46"
-        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
@@ -2465,6 +2415,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "asvae/laravel-api-tester",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/asvae/laravel-api-tester.git",
+                "reference": "0132f11e0b09afe8c41b21e75565727762600dad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/asvae/laravel-api-tester/zipball/0132f11e0b09afe8c41b21e75565727762600dad",
+                "reference": "0132f11e0b09afe8c41b21e75565727762600dad",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "laravel/framework": "5.2.*",
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "firebase/token-generator": "Token generator for firebase",
+                "ktamas77/firebase-php": "Keep your requests stored in cloud"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Asvae\\ApiTester\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yauheni Prakopchyk",
+                    "email": "ontrew@gmail.com"
+                }
+            ],
+            "description": "Api tester for Laravel Framework",
+            "keywords": [
+                "api",
+                "debug",
+                "laravel"
+            ],
+            "time": "2016-09-08 12:05:46"
+        },
         {
             "name": "barryvdh/laravel-ide-helper",
             "version": "v2.2.1",
