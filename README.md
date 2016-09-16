@@ -23,6 +23,9 @@ Laravel starter kit
 - garygreen/pretty-routes
 - fadion/sanitizer
 
+## Installed packages for API
+- asvae/laravel-api-tester
+
 ## Things you probably want to change manually
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
