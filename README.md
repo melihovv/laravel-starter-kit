@@ -14,6 +14,7 @@ Laravel starter kit
 - additional helpers
 - custom configs for phpmd and phpcs
 - abstract FormRequest class
+- pre-commit hook which runs php tests
 
 ## Installed packages
 - doctrine/dbal
