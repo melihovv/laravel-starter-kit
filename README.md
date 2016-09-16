@@ -15,6 +15,7 @@ Laravel starter kit
 - custom configs for phpmd and phpcs
 - abstract FormRequest class
 - pre-commit hook which runs php tests
+- ExceptionServiceProvider, which converts ModelNotFoundException to NotFoundHttpException
 
 ## Installed packages
 - doctrine/dbal
