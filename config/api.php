@@ -111,7 +111,7 @@ return [
     |
     */
 
-    'strict' => env('API_STRICT', false),
+    'strict' => env('API_STRICT', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -170,7 +170,7 @@ return [
     */
 
     'auth' => [
-
+        'jwt' => Dingo\Api\Auth\Provider\JWT::class,
     ],
 
     /*

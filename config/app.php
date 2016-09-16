@@ -167,6 +167,7 @@ return [
          * Package Service Providers...
          */
         Dingo\Api\Provider\LaravelServiceProvider::class,
+        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -237,6 +238,7 @@ return [
 
         'API' => Dingo\Api\Facade\API::class,
         'DingoRoute' => Dingo\Api\Facade\Route::class,
+        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
     ],
 
 ];

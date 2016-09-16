@@ -26,8 +26,9 @@ Laravel starter kit
 ## Installed packages for API
 - asvae/laravel-api-tester
 - dingo/api
+- tymon/jwt-auth
 
-## Things you probably want to change manually
+## Things you may do manually
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
@@ -37,3 +38,9 @@ Laravel starter kit
 - enable laravel-plugin in PhpStorm
 - enable phpmd and phpcs inspections in PhpStorm
 - configure phpunit in PhpStorm
+- `php artisan jwt:generate` to generate secret key for jwt
+
+## Things you may add to your .env file
+- API_STRICT=false
+- API_DEBUG=true
+- JWT_TTL=999999
