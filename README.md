@@ -13,12 +13,14 @@ Laravel starter kit
 - `DatabaseTestCase.php` for really fast tests which use database
 - additional helpers
 - custom configs for phpmd and phpcs
+- abstract FormRequest class
 
 ## Installed packages
 - doctrine/dbal
 - barryvdh/laravel-ide-helper
 - itsgoingd/clockwork
 - garygreen/pretty-routes
+- fadion/sanitizer
 
 ## Things you probably want to change manually
 - name of your app in `config/app.php`
