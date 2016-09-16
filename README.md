@@ -3,6 +3,9 @@
 
 Laravel starter kit
 
+If you want develop API, look at
+[api](https://github.com/melihovv/laravel-starter-kit/tree/api) branch.
+
 ## Changes
 - `local_providers` and `local_aliases` keys in config/app.php
 - `app/User.php` move to `app/Models/User.php`
@@ -23,7 +26,7 @@ Laravel starter kit
 - garygreen/pretty-routes
 - fadion/sanitizer
 
-## Things you probably want to change manually
+## Things you may change manually
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
