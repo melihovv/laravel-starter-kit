@@ -25,11 +25,15 @@ Laravel starter kit
 
 ## Installed packages for API
 - asvae/laravel-api-tester
+- dingo/api
 
 ## Things you probably want to change manually
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
+- api subtype in `config/api.php`
+- api prefix in `config/api.php`
+- `name` in `config/api.php`
 - enable laravel-plugin in PhpStorm
 - enable phpmd and phpcs inspections in PhpStorm
 - configure phpunit in PhpStorm
