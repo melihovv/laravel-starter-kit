@@ -40,9 +40,9 @@ Laravel starter kit
 - enable phpmd and phpcs inspections in PhpStorm
 - configure phpunit in PhpStorm
 - `php artisan jwt:generate` to generate secret key for jwt
+- mark `app` folder as `Sources root` and specify `App` package prefix
 
 ## Things you may add to your .env file
 - API_STRICT=false
 - API_DEBUG=true
 - JWT_TTL=999999
-- mark `app` folder as `Sources root` and specify `App` package prefix
