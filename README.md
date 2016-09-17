@@ -26,7 +26,7 @@ If you want develop API, look at
 - garygreen/pretty-routes
 - fadion/sanitizer
 
-## Things you may change manually
+## Things you may do manually
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
