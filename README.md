@@ -45,3 +45,4 @@ Laravel starter kit
 - API_STRICT=false
 - API_DEBUG=true
 - JWT_TTL=999999
+- mark `app` folder as `Sources root` and specify `App` package prefix
