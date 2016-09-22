@@ -2,7 +2,6 @@
 
 namespace App\Http;
 
-use Clockwork\Support\Laravel\ClockworkMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -60,7 +59,11 @@ class Kernel extends HttpKernel
         parent::bootstrap();
 
         if ($this->app->environment() !== 'production') {
-            $this->prependMiddleware(ClockworkMiddleware::class);
+            $middls = config('app.local_middlewares');
+
+            foreach ($middls as $middl) {
+                $this->pushMiddleware($middl);
+            }
         }
     }
 }
