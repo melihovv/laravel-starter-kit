@@ -1,11 +1,16 @@
 <?php
 
-/**
- * @return string
- */
-function get_current_action() : string
-{
-    list(, $action) = explode('@', Route::getCurrentRoute()->getActionName());
+if (!function_exists('get_current_action')) {
+    /**
+     * @return string
+     */
+    function get_current_action()
+    {
+        list(, $action) = explode(
+            '@',
+            Route::getCurrentRoute()->getActionName()
+        );
 
-    return $action;
+        return $action;
+    }
 }
