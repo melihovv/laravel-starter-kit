@@ -24,6 +24,7 @@ Laravel starter kit
 - itsgoingd/clockwork
 - garygreen/pretty-routes
 - fadion/sanitizer
+- illuminated/console-mutex
 
 ## Installed packages for API
 - asvae/laravel-api-tester

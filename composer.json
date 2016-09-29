@@ -5,7 +5,8 @@
     "laravel/framework": "5.3.*",
     "fadion/sanitizer": "^1.0",
     "dingo/api": "1.0.x@dev",
-    "tymon/jwt-auth": "^0.5.9"
+    "tymon/jwt-auth": "^0.5.9",
+    "illuminated/console-mutex": "^1.1"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
