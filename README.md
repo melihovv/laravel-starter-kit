@@ -26,6 +26,7 @@ If you want develop API, look at
 - itsgoingd/clockwork
 - garygreen/pretty-routes
 - fadion/sanitizer
+- illuminated/console-mutex
 
 ## Things you may do manually
 - name of your app in `config/app.php`
