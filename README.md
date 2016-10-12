@@ -27,6 +27,7 @@ If you want develop API, look at
 - garygreen/pretty-routes
 - fadion/sanitizer
 - illuminated/console-mutex
+- rap2hpoutre/laravel-log-viewer
 
 ## Things you may do manually
 - name of your app in `config/app.php`

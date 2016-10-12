@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/logs', [
+    'uses' => '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index',
+    'as' => 'logs',
+]);
