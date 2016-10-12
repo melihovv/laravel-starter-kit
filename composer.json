@@ -6,7 +6,8 @@
     "fadion/sanitizer": "^1.0",
     "dingo/api": "1.0.x@dev",
     "tymon/jwt-auth": "^0.5.9",
-    "illuminated/console-mutex": "^1.1"
+    "illuminated/console-mutex": "^1.1",
+    "rap2hpoutre/laravel-log-viewer": "^0.7.0"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
