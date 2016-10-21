@@ -26,6 +26,7 @@ Laravel starter kit
 - fadion/sanitizer
 - illuminated/console-mutex
 - rap2hpoutre/laravel-log-viewer
+- reliese/laravel
 
 ## Installed packages for API
 - asvae/laravel-api-tester

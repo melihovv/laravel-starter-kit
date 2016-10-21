@@ -186,6 +186,7 @@ return [
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
         PrettyRoutes\ServiceProvider::class,
         Asvae\ApiTester\ServiceProvider::class,
+        Reliese\Coders\CodersServiceProvider::class,
     ],
 
     'local_aliases' => [
