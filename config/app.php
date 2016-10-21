@@ -183,6 +183,7 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
         PrettyRoutes\ServiceProvider::class,
+        Reliese\Coders\CodersServiceProvider::class,
     ],
 
     'local_aliases' => [

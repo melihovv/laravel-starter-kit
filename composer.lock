@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bed15011eab0a96922c8bacf93554f42",
-    "content-hash": "7d7c34cc172c009595d2d82726696df9",
+    "hash": "a985962589e6894e0d63adc984d50b12",
+    "content-hash": "bba1877c6197e7e30b71bcc69feeb08f",
     "packages": [
         {
             "name": "arvenil/ninja-mutex",
@@ -3620,6 +3620,58 @@
                 "xunit"
             ],
             "time": "2016-09-06 16:07:45"
+        },
+        {
+            "name": "reliese/laravel",
+            "version": "v0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reliese/laravel.git",
+                "reference": "766384240c4c9486e85d841909cce2fcbc33bc19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reliese/laravel/zipball/766384240c4c9486e85d841909cce2fcbc33bc19",
+                "reference": "766384240c4c9486e85d841909cce2fcbc33bc19",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "~2.5",
+                "illuminate/console": "~5.3",
+                "illuminate/contracts": "~5.3",
+                "illuminate/database": "~5.3",
+                "illuminate/filesystem": "~5.3",
+                "illuminate/support": "~5.3",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.4",
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Reliese\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cristian Llanos",
+                    "email": "cristianllanos@outlook.com"
+                }
+            ],
+            "description": "Reliese Components for Laravel Framework code generation.",
+            "homepage": "http://cristianllanos.com",
+            "keywords": [
+                "laravel",
+                "reliese"
+            ],
+            "time": "2016-10-20 05:05:19"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
