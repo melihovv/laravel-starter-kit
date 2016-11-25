@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a985962589e6894e0d63adc984d50b12",
-    "content-hash": "bba1877c6197e7e30b71bcc69feeb08f",
+    "hash": "2ebeb8c8285fe4a8b21791c2c526cfe1",
+    "content-hash": "d291b4035af6d2582d9628b9ba7c19c8",
     "packages": [
         {
             "name": "arvenil/ninja-mutex",
@@ -1185,6 +1185,50 @@
                 "logging"
             ],
             "time": "2016-06-23 14:07:52"
+        },
+        {
+            "name": "serafim/properties",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SerafimArts/Properties.git",
+                "reference": "35997818ca5d6e715aae3e0fdaaaa9a7efc90539"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SerafimArts/Properties/zipball/35997818ca5d6e715aae3e0fdaaaa9a7efc90539",
+                "reference": "35997818ca5d6e715aae3e0fdaaaa9a7efc90539",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Serafim\\Properties\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nesmeyanov Kirill",
+                    "email": "nesk@xakep.ru"
+                }
+            ],
+            "description": "PHP properties implementation",
+            "homepage": "http://github.io/SerafimArts/Properties",
+            "keywords": [
+                "fields",
+                "properties"
+            ],
+            "time": "2016-05-17 10:15:32"
         },
         {
             "name": "swiftmailer/swiftmailer",

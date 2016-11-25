@@ -29,6 +29,7 @@ If you want develop API, look at
 - illuminated/console-mutex
 - rap2hpoutre/laravel-log-viewer
 - reliese/laravel
+- serafim/properties
 
 ## Things you may do manually
 - name of your app in `config/app.php`
