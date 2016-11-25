@@ -27,6 +27,7 @@ Laravel starter kit
 - illuminated/console-mutex
 - rap2hpoutre/laravel-log-viewer
 - reliese/laravel
+- serafim/properties
 
 ## Installed packages for API
 - asvae/laravel-api-tester
