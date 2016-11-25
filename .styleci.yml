@@ -3,3 +3,5 @@ risky: true
 linting: true
 disabled:
   - align_double_arrow
+  - phpdoc_to_comment
+  - phpdoc_var_without_name
