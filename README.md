@@ -30,6 +30,7 @@ If you want develop API, look at
 - rap2hpoutre/laravel-log-viewer
 - reliese/laravel
 - serafim/properties
+- thedevsaddam/laravel-schema
 
 ## Things you may do manually
 - name of your app in `config/app.php`

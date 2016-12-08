@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2ebeb8c8285fe4a8b21791c2c526cfe1",
-    "content-hash": "d291b4035af6d2582d9628b9ba7c19c8",
+    "hash": "f294e7834bbb95ed023d448051e4eaf1",
+    "content-hash": "a22413f0ff101987a70f5dafc00c4e16",
     "packages": [
         {
             "name": "arvenil/ninja-mutex",
@@ -4683,6 +4683,49 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2016-09-02 02:12:52"
+        },
+        {
+            "name": "thedevsaddam/laravel-schema",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thedevsaddam/laravel-schema.git",
+                "reference": "ce787b3b5d6f558cd5fb615f373beabb1939e724"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thedevsaddam/laravel-schema/zipball/ce787b3b5d6f558cd5fb615f373beabb1939e724",
+                "reference": "ce787b3b5d6f558cd5fb615f373beabb1939e724",
+                "shasum": ""
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Thedevsaddam\\LaravelSchema\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saddam Hossain",
+                    "email": "thedevsaddam@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Display the connected database information in console.",
+            "homepage": "https://github.com/thedevsaddam/laravel-schema",
+            "keywords": [
+                "database",
+                "laravel",
+                "laravel-database viewer",
+                "laravel-schema",
+                "schema",
+                "thedevsaddam"
+            ],
+            "time": "2016-10-28 06:25:46"
         },
         {
             "name": "webmozart/assert",

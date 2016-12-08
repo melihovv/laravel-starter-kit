@@ -184,6 +184,7 @@ return [
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
         PrettyRoutes\ServiceProvider::class,
         Reliese\Coders\CodersServiceProvider::class,
+        Thedevsaddam\LaravelSchema\LaravelSchemaServiceProvider::class,
     ],
 
     'local_aliases' => [
