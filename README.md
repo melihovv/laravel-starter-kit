@@ -28,6 +28,7 @@ Laravel starter kit
 - rap2hpoutre/laravel-log-viewer
 - reliese/laravel
 - serafim/properties
+- thedevsaddam/laravel-schema
 
 ## Installed packages for API
 - asvae/laravel-api-tester

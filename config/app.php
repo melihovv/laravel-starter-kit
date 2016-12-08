@@ -187,6 +187,7 @@ return [
         PrettyRoutes\ServiceProvider::class,
         Asvae\ApiTester\ServiceProvider::class,
         Reliese\Coders\CodersServiceProvider::class,
+//        Thedevsaddam\LaravelSchema\LaravelSchemaServiceProvider::class,
     ],
 
     'local_aliases' => [
