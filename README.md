@@ -25,7 +25,6 @@ If you want develop API, look at
 - barryvdh/laravel-ide-helper
 - itsgoingd/clockwork
 - garygreen/pretty-routes
-- fadion/sanitizer
 - illuminated/console-mutex
 - rap2hpoutre/laravel-log-viewer
 - reliese/laravel
