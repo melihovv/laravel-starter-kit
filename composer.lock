@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "08873fa5e2e384d44413aa17a066eaf4",
-    "content-hash": "6ac5083e29075bec7bc0272ab933ffcc",
+    "hash": "e5028e51d0ce34e3c64db5672e03a18c",
+    "content-hash": "40bd697798db3fa1af2823627bd05a87",
     "packages": [
         {
             "name": "arvenil/ninja-mutex",
@@ -129,12 +129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dingo/api.git",
-                "reference": "242411efbb9f01104a00b780c4defb2c18a45856"
+                "reference": "dc312a566ff8fe16098f95360d3778789727f63f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dingo/api/zipball/242411efbb9f01104a00b780c4defb2c18a45856",
-                "reference": "242411efbb9f01104a00b780c4defb2c18a45856",
+                "url": "https://api.github.com/repos/dingo/api/zipball/dc312a566ff8fe16098f95360d3778789727f63f",
+                "reference": "dc312a566ff8fe16098f95360d3778789727f63f",
                 "shasum": ""
             },
             "require": {
@@ -196,7 +196,7 @@
                 "laravel",
                 "restful"
             ],
-            "time": "2016-09-02 05:51:07"
+            "time": "2016-10-18 16:20:39"
         },
         {
             "name": "dingo/blueprint",
@@ -475,51 +475,6 @@
                 "parser"
             ],
             "time": "2014-09-09 13:34:57"
-        },
-        {
-            "name": "fadion/sanitizer",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fadion/Sanitizer.git",
-                "reference": "e28290ff63b7dbb285b03b816490bd7f3dba7267"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fadion/Sanitizer/zipball/e28290ff63b7dbb285b03b816490bd7f3dba7267",
-                "reference": "e28290ff63b7dbb285b03b816490bd7f3dba7267",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Fadion\\Sanitizer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fadion Dashi",
-                    "email": "jonidashi@gmail.com",
-                    "homepage": "http://www.streha.al"
-                }
-            ],
-            "description": "Input sanitizer. Standalone or for Laravel's FormRequest",
-            "keywords": [
-                "form request",
-                "laravel",
-                "sanitizer"
-            ],
-            "time": "2016-03-28 21:15:49"
         },
         {
             "name": "illuminated/console-mutex",
@@ -5188,6 +5143,49 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2016-09-25 08:27:07"
+        },
+        {
+            "name": "thedevsaddam/laravel-schema",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thedevsaddam/laravel-schema.git",
+                "reference": "ce787b3b5d6f558cd5fb615f373beabb1939e724"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thedevsaddam/laravel-schema/zipball/ce787b3b5d6f558cd5fb615f373beabb1939e724",
+                "reference": "ce787b3b5d6f558cd5fb615f373beabb1939e724",
+                "shasum": ""
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Thedevsaddam\\LaravelSchema\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saddam Hossain",
+                    "email": "thedevsaddam@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Display the connected database information in console.",
+            "homepage": "https://github.com/thedevsaddam/laravel-schema",
+            "keywords": [
+                "database",
+                "laravel",
+                "laravel-database viewer",
+                "laravel-schema",
+                "schema",
+                "thedevsaddam"
+            ],
+            "time": "2016-10-28 06:25:46"
         }
     ],
     "aliases": [],
