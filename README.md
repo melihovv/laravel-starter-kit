@@ -28,6 +28,7 @@ Laravel starter kit
 - reliese/laravel
 - serafim/properties
 - thedevsaddam/laravel-schema
+- mathiasgrimm/laravel-env-validator
 
 ## Installed packages for API
 - asvae/laravel-api-tester
