@@ -21,16 +21,16 @@ If you want develop API, look at
 - pre-commit hook which runs php tests, phpmd and phpcs analysis
 
 ## Installed packages
-- doctrine/dbal
-- barryvdh/laravel-ide-helper
-- itsgoingd/clockwork
-- garygreen/pretty-routes
-- illuminated/console-mutex
-- rap2hpoutre/laravel-log-viewer
-- reliese/laravel
-- serafim/properties
-- thedevsaddam/laravel-schema
-- mathiasgrimm/laravel-env-validator
+- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
+- [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
+- [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) [dev] - Provide all kinds of information useful for debugging and profiling your PHP applications, including information about request, headers, get and post data, cookies, session data, database queries, routes, visualisation of application runtime and more
+- [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
+- [rap2hpoutre/laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer) - Go to `/logs`
+- [mathiasgrimm/laravel-env-validator](https://github.com/mathiasgrimm/laravel-env-validator) [dev] - Validate your .env file `php artisan config:env-validator`
+- [reliese/laravel](https://github.com/reliese/laravel) [dev] - Generate models from database `php artisan code:models`
+- [thedevsaddam/laravel-schema](https://github.com/thedevsaddam/laravel-schema) [dev] - Database in console `php artisan schema:help`
+- [illuminated/console-mutex](https://github.com/dmitry-ivanov/laravel-console-mutex) - Run your console commands without overlap
+- [serafim/properties](https://github.com/SerafimArts/Properties) -  Getters or setters method and used doc-block information
 
 ## Things you may do manually
 - name of your app in `config/app.php`
