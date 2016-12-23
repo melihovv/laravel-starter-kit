@@ -30,6 +30,7 @@ If you want develop API, look at
 - reliese/laravel
 - serafim/properties
 - thedevsaddam/laravel-schema
+- mathiasgrimm/laravel-env-validator
 
 ## Things you may do manually
 - name of your app in `config/app.php`

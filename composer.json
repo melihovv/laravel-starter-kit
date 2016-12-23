@@ -20,8 +20,15 @@
     "phpmd/phpmd": "^2.4",
     "squizlabs/php_codesniffer": "^2.7",
     "reliese/laravel": "^0.0.6",
-    "thedevsaddam/laravel-schema": "^2.0"
+    "thedevsaddam/laravel-schema": "^2.0",
+    "mathiasgrimm/laravel-env-validator": "dev-configurable-validation"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/davidstoker/laravel-env-validator"
+    }
+  ],
   "autoload": {
     "classmap": [
       "database"
