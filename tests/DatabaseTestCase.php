@@ -20,7 +20,7 @@ abstract class DatabaseTestCase extends TestCase
             return static::$application;
         }
 
-        $app = require __DIR__.'/../bootstrap/app.php';
+        $app = require __DIR__ . '/../bootstrap/app.php';
         $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
         Hash::setRounds(5);
