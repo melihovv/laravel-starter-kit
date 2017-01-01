@@ -10,7 +10,7 @@ return [
         'DB_PORT' => 'required',
         'DB_DATABASE' => 'required',
         'DB_USERNAME' => 'required',
-        'DB_PASSWORD' => 'required',
+        'DB_PASSWORD' => 'present',
 
         'BROADCAST_DRIVER' => 'in:pusher,redis,log,null',
         'CACHE_DRIVER' => 'in:apc,array,database,file,memcached,redis',
