@@ -3,7 +3,9 @@
 return [
     'live_validation' => false,
     'validations' => [
+        'APP_ENV' => 'in:local,production',
         'APP_KEY' => 'required',
+        'APP_DEBUG' => 'boolean',
 
         'DB_CONNECTION' => 'required',
         'DB_HOST' => 'required',
