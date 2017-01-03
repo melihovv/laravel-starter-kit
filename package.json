@@ -5,7 +5,7 @@
     "php-test": "npm run phpcs && npm run phpmd && npm run phpunit",
     "phpunit": "phpunit",
     "phpmd": "phpmd app/ text ./phpmd-rules.xml",
-    "phpcs": "phpcs --standard=./phpcs-rules.xml app/",
+    "phpcs": "phpcs --standard=./phpcs-rules.xml --encoding=utf-8 app/",
     "phpcbf": "phpcbf --standard=./phpcs-rules.xml app/"
   },
   "devDependencies": {
