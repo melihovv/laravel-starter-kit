@@ -17,7 +17,8 @@ If you want develop API, look at
 - `DatabaseTestCase.php` for really fast tests which use database
 - additional helpers
 - custom configs for phpmd and phpcs
-- abstract FormRequest class
+- abstract `FormRequest` class
+- abstract console `Command` class
 - pre-commit hook which runs php tests, phpmd and phpcs analysis
 
 ## Installed packages
