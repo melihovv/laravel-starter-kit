@@ -181,7 +181,6 @@ return [
 
     'local_providers' => [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        Clockwork\Support\Laravel\ClockworkServiceProvider::class,
         PrettyRoutes\ServiceProvider::class,
         Reliese\Coders\CodersServiceProvider::class,
         Thedevsaddam\LaravelSchema\LaravelSchemaServiceProvider::class,
@@ -190,12 +189,7 @@ return [
     ],
 
     'local_aliases' => [
-        'Clockwork' => Clockwork\Support\Laravel\Facade::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-    ],
-
-    'local_global_middlewares' => [
-        Clockwork\Support\Laravel\ClockworkMiddleware::class,
     ],
 
     /*

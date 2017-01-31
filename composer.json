@@ -14,7 +14,6 @@
     "symfony/css-selector": "3.1.*",
     "symfony/dom-crawler": "3.1.*",
     "barryvdh/laravel-ide-helper": "^2.2",
-    "itsgoingd/clockwork": "^1.12",
     "garygreen/pretty-routes": "^0.0.1",
     "doctrine/dbal": "^2.5",
     "phpmd/phpmd": "^2.4",
