@@ -22,7 +22,6 @@ Laravel starter kit
 ## Installed packages
 - [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
 - [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
-- [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) [dev] - Provide all kinds of information useful for debugging and profiling your PHP applications, including information about request, headers, get and post data, cookies, session data, database queries, routes, visualisation of application runtime and more
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel
 - [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
 - [rap2hpoutre/laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer) - Go to `/logs`
