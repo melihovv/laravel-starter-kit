@@ -12,6 +12,6 @@
 */
 
 Route::get('/logs', [
-    'uses' => '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index',
+    'uses' => '\Melihovv\LaravelLogViewer\LaravelLogViewerController@index',
     'as' => 'logs',
 ]);
