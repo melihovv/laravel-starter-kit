@@ -16,7 +16,7 @@ Laravel starter kit
 - custom configs for phpmd and phpcs
 - abstract `FormRequest` class
 - abstract console `Command` class
-- pre-commit hook which runs php tests, phpmd and phpcs analysis
+- commands to run phpunit tests, phpmd and phpcs analysis
 - ExceptionServiceProvider, which converts ModelNotFoundException to NotFoundHttpException
 
 ## Installed packages
