@@ -19,7 +19,7 @@ If you want develop API, look at
 - custom configs for phpmd and phpcs
 - abstract `FormRequest` class
 - abstract console `Command` class
-- pre-commit hook which runs php tests, phpmd and phpcs analysis
+- commands to run phpunit tests, phpmd and phpcs analysis
 
 ## Installed packages
 - [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
