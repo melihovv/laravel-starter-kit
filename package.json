@@ -1,6 +1,0 @@
-{
-  "private": true,
-  "devDependencies": {
-    "ghooks": "^1.3.2"
-  }
-}
