@@ -182,7 +182,6 @@ return [
     'local_providers' => [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         PrettyRoutes\ServiceProvider::class,
-        Reliese\Coders\CodersServiceProvider::class,
         Thedevsaddam\LaravelSchema\LaravelSchemaServiceProvider::class,
         MathiasGrimm\LaravelEnvValidator\ServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
