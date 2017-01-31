@@ -189,10 +189,12 @@ return [
         Reliese\Coders\CodersServiceProvider::class,
         Thedevsaddam\LaravelSchema\LaravelSchemaServiceProvider::class,
         MathiasGrimm\LaravelEnvValidator\ServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     'local_aliases' => [
         'Clockwork' => Clockwork\Support\Laravel\Facade::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
     'local_global_middlewares' => [
