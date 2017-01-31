@@ -59,7 +59,7 @@ class Kernel extends HttpKernel
         parent::bootstrap();
 
         if ($this->app->environment() !== 'production') {
-            $middls = config('app.local_global_middlewares');
+            $middls = config('app.local_global_middlewares', []);
 
             foreach ($middls as $middl) {
                 $this->pushMiddleware($middl);
