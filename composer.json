@@ -66,6 +66,11 @@
       "Illuminate\\Foundation\\ComposerScripts::postUpdate",
       "php artisan post-update-cmd",
       "php artisan optimize"
-    ]
+    ],
+    "test": "composer run phpcs && composer run phpmd && composer run phpunit",
+    "phpunit": "phpunit",
+    "phpmd": "phpmd app/ text ./phpmd-rules.xml",
+    "phpcs": "phpcs --standard=./phpcs-rules.xml --encoding=utf-8 app/",
+    "phpcbf": "phpcbf --standard=./phpcs-rules.xml --encoding=utf-8 app/"
   }
 }
