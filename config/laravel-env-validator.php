@@ -2,7 +2,7 @@
 
 return [
     'live_validation' => false,
-    'validations' => [
+    'rules' => [
         'APP_ENV' => 'in:local,production',
         'APP_KEY' => 'required',
         'APP_DEBUG' => 'boolean',
@@ -13,6 +13,14 @@ return [
         'DB_DATABASE' => 'required',
         'DB_USERNAME' => 'required',
         'DB_PASSWORD' => 'present',
+
+        'MAIL_HOST' => 'required',
+        'MAIL_PORT' => 'required',
+        'MAIL_USERNAME' => 'required',
+        'MAIL_PASSWORD' => 'required',
+        'MAIL_ENCRYPTION' => 'required',
+        'MAIL_FROM_ADDRESS' => 'required|email',
+        'MAIL_FROM_NAME' => 'required',
 
         'BROADCAST_DRIVER' => 'in:pusher,redis,log,null',
         'CACHE_DRIVER' => 'in:apc,array,database,file,memcached,redis',

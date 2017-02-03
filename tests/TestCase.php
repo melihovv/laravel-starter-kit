@@ -1,6 +1,10 @@
 <?php
 
-abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
+namespace Tests;
+
+use Illuminate\Contracts\Console\Kernel;
+
+abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
 {
     use TestHelpers;
 
@@ -20,9 +24,9 @@ abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
     {
         $app = require __DIR__ . '/../bootstrap/app.php';
 
-        $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+        $app->make(Kernel::class)->bootstrap();
 
-        Hash::setRounds(5);
+        \Hash::setRounds(5);
 
         return $app;
     }

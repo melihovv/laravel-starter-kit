@@ -2,10 +2,12 @@
   "type": "project",
   "require": {
     "php": ">=5.6.4",
-    "laravel/framework": "5.3.*",
-    "illuminated/console-mutex": "^1.1",
+    "laravel/framework": "5.4.*",
+    "illuminated/console-mutex": "^1.2",
     "serafim/properties": "^1.0",
-    "melihovv/laravel-log-viewer": "1.1.*"
+    "melihovv/laravel-log-viewer": "1.2.*",
+    "melihovv/laravel-env-validator": "^1.0",
+    "laravel/tinker": "^1.0"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
@@ -14,19 +16,12 @@
     "symfony/css-selector": "3.1.*",
     "symfony/dom-crawler": "3.1.*",
     "barryvdh/laravel-ide-helper": "^2.2",
-    "garygreen/pretty-routes": "^0.0.1",
+    "garygreen/pretty-routes": "^0.0.6",
     "doctrine/dbal": "^2.5",
     "phpmd/phpmd": "^2.4",
     "squizlabs/php_codesniffer": "^2.7",
-    "mathiasgrimm/laravel-env-validator": "dev-configurable-validation",
     "barryvdh/laravel-debugbar": "^2.3"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/davidstoker/laravel-env-validator"
-    }
-  ],
   "autoload": {
     "classmap": [
       "database"
@@ -39,11 +34,9 @@
     ]
   },
   "autoload-dev": {
-    "classmap": [
-      "tests/TestCase.php",
-      "tests/DatabaseTestCase.php",
-      "tests/TestHelpers.php"
-    ]
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
   },
   "scripts": {
     "post-root-package-install": [

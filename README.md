@@ -26,8 +26,8 @@ If you want develop API, look at
 - [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel
 - [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
-- [rap2hpoutre/laravel-log-viewer](https://github.com/rap2hpoutre/laravel-log-viewer) - Go to `/logs`
-- [mathiasgrimm/laravel-env-validator](https://github.com/mathiasgrimm/laravel-env-validator) [dev] - Validate your .env file `php artisan config:env-validator`
+- [melihovv/laravel-log-viewer](https://github.com/melihovv/laravel-log-viewer) - Go to `/logs`
+- [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) [dev] - Validate your .env file `php artisan config:env-validator`
 - [illuminated/console-mutex](https://github.com/dmitry-ivanov/laravel-console-mutex) - Run your console commands without overlap
 - [serafim/properties](https://github.com/SerafimArts/Properties) -  Getters or setters method and used doc-block information
 

@@ -1,5 +1,9 @@
 <?php
 
+namespace Tests;
+
+use BadMethodCallException;
+use Mockery;
 use Mockery\MockInterface;
 
 trait TestHelpers
