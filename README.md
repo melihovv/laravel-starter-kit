@@ -39,3 +39,4 @@ If you want develop API, look at
 - enable phpmd and phpcs inspections in PhpStorm
 - configure phpunit in PhpStorm
 - mark `app` folder as `Sources root` and specify `App` package prefix
+- mark `tests` folder as `Tests root` and specify `Tests` package prefix
