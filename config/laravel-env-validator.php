@@ -26,7 +26,7 @@ return [
         'CACHE_DRIVER' => 'in:apc,array,database,file,memcached,redis',
         'SESSION_DRIVER' => 'in:file,cookie,database,apc,memcached,redis,array',
         'QUEUE_DRIVER' => 'in:sync,database,beanstalkd,sqs,redis,null',
-        'MAIL_DRIVER' => 'in:smtp,mail,sendmail,mailgun,mandrill,ses,' .
-            'sparkpost,log',
+        'MAIL_DRIVER' => 'in:smtp,sendmail,mailgun,mandrill,ses,' .
+            'sparkpost,log,array',
     ],
 ];

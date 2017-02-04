@@ -2,27 +2,11 @@
 
 namespace Tests;
 
-use BadMethodCallException;
 use Mockery;
 use Mockery\MockInterface;
 
 trait TestHelpers
 {
-    /**
-     * @param string $method
-     * @param array  $args
-     *
-     * @return mixed
-     */
-    public function __call($method, array $args)
-    {
-        if (in_array($method, ['get', 'post', 'put', 'patch', 'delete'])) {
-            return $this->call($method, $args[0]);
-        }
-
-        throw new BadMethodCallException();
-    }
-
     /**
      * @param string $class
      *
