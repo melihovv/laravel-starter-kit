@@ -168,7 +168,6 @@ return [
          */
         Melihovv\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Melihovv\LaravelEnvValidator\ServiceProvider::class,
-        Laravel\Tinker\TinkerServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -185,6 +184,7 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         PrettyRoutes\ServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Laravel\Tinker\TinkerServiceProvider::class,
     ],
 
     'local_aliases' => [
