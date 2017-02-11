@@ -18,7 +18,7 @@ return [
         'MAIL_PORT' => 'required',
         'MAIL_USERNAME' => 'required',
         'MAIL_PASSWORD' => 'required',
-        'MAIL_ENCRYPTION' => 'required',
+        'MAIL_ENCRYPTION' => 'required|nullable',
         'MAIL_FROM_ADDRESS' => 'required|email',
         'MAIL_FROM_NAME' => 'required',
 
