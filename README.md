@@ -3,9 +3,6 @@
 
 Laravel starter kit
 
-If you want develop API, look at
-[api](https://github.com/melihovv/laravel-starter-kit/tree/api) branch.
-
 ## Changes
 - `local_providers`, `local_aliases` and `local_global_middlewares` keys in
 `config/app.php`
