@@ -57,17 +57,4 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
-
-    public function boot()
-    {
-        parent::bootstrap();
-
-        if ($this->app->environment() !== 'production') {
-            $middls = config('app.local_global_middlewares', []);
-
-            foreach ($middls as $middl) {
-                $this->pushMiddleware($middl);
-            }
-        }
-    }
 }

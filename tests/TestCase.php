@@ -2,15 +2,10 @@
 
 namespace Tests;
 
-abstract class TestCase extends \Illuminate\Foundation\Testing\TestCase
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+
+abstract class TestCase extends BaseTestCase
 {
     use TestHelpers;
     use CreatesApplication;
-
-    /**
-     * The base URL to use while testing the application.
-     *
-     * @var string
-     */
-    protected $baseUrl = 'http://localhost';
 }
