@@ -3,6 +3,12 @@
 
 Laravel starter kit
 
+## Installation
+
+```
+composer create-project melihovv/laravel-starter-kit super-project
+```
+
 ## Changes
 - `local_providers`, `local_aliases` and `local_global_middlewares` keys in
 `config/app.php`
