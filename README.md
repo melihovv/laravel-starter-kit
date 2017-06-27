@@ -32,9 +32,8 @@ composer create-project melihovv/laravel-starter-kit super-project
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel
 - [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
 - [melihovv/laravel-log-viewer](https://github.com/melihovv/laravel-log-viewer) - Go to `/logs`
-- [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) [dev] - Validate your .env file `php artisan config:env-validator`
+- [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`
 - [illuminated/console-mutex](https://github.com/dmitry-ivanov/laravel-console-mutex) - Run your console commands without overlap
-- [serafim/properties](https://github.com/SerafimArts/Properties) -  Getters or setters method and used doc-block information
 
 ## Things you may do manually
 - name of your app in `config/app.php`

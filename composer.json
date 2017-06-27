@@ -6,7 +6,6 @@
     "php": ">=5.6.4",
     "laravel/framework": "5.4.*",
     "illuminated/console-mutex": "^1.2",
-    "serafim/properties": "^1.0",
     "melihovv/laravel-log-viewer": "1.2.*",
     "melihovv/laravel-env-validator": "^1.0",
     "laravel/tinker": "^1.0"
@@ -64,6 +63,6 @@
     "phpmd": "phpmd app/ text ./phpmd-rules.xml",
     "phpcs": "phpcs --standard=./phpcs-rules.xml --encoding=utf-8 app/",
     "phpcbf": "phpcbf --standard=./phpcs-rules.xml --encoding=utf-8 app/",
-    "phpcbf": "phpcpd app/"
+    "phpcpd": "phpcpd app/"
   }
 }
