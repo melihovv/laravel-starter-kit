@@ -43,6 +43,7 @@
   "scripts": {
     "post-root-package-install": [
       "php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "php -r \"touch('.tinker');\"",
       "yarn"
     ],
     "post-create-project-cmd": [
