@@ -168,6 +168,7 @@ return [
          */
         Melihovv\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Melihovv\LaravelEnvValidator\ServiceProvider::class,
+        Melihovv\LaravelPackageGenerator\ServiceProvider::class,
 
         /*
          * Application Service Providers...
