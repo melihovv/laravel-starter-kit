@@ -2,10 +2,19 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
+
 trait AdditionalMethods
 {
-    public static function last()
+    /**
+     * Scope a query to select last record in the table.
+     *
+     * @param Builder $query
+     *
+     * @return Builder
+     */
+    public function scopeLast($query)
     {
-        return static::orderBy('id', 'desc')->first();
+        return $query->orderBy('id', 'desc')->limit(1);
     }
 }
