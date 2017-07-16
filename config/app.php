@@ -181,17 +181,6 @@ return [
 
     ],
 
-    'local_providers' => [
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        PrettyRoutes\ServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
-        Laravel\Tinker\TinkerServiceProvider::class,
-    ],
-
-    'local_aliases' => [
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
-    ],
-
     /*
     |--------------------------------------------------------------------------
     | Class Aliases
@@ -238,6 +227,40 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+    ],
+
+    /*
+    |---------------------------------------------------------------------------
+    | Local service providers
+    |---------------------------------------------------------------------------
+    |
+    | These service providers will be registered only in non production
+    | environment.
+    |
+    */
+
+    'local_providers' => [
+
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        PrettyRoutes\ServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Laravel\Tinker\TinkerServiceProvider::class,
+
+    ],
+
+    /*
+    |---------------------------------------------------------------------------
+    | Local aliases
+    |---------------------------------------------------------------------------
+    |
+    | These aliases will be registered only in non production environment.
+    |
+    */
+
+    'local_aliases' => [
+
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
 

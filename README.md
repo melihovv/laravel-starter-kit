@@ -13,8 +13,7 @@ composer create-project melihovv/laravel-starter-kit super-project
 ```
 
 ## Changes
-- `local_providers`, `local_aliases` and `local_global_middlewares` keys in
-`config/app.php`
+- `local_providers` and `local_aliases` keys in `config/app.php`
 - `app/User.php` move to `app/Models/User.php`
 - `AdditionalMethods` trait for Eloquent models
 - sqlite database connection for in-memory tests
