@@ -16,7 +16,7 @@ composer create-project melihovv/laravel-starter-kit super-project
 - `local_providers` and `local_aliases` keys in `config/app.php`
 - `app/User.php` move to `app/Models/User.php`
 - `AdditionalMethods` trait for Eloquent models
-- sqlite database connection for in-memory tests
+- sqlite database connection for in-memory tests by default in `phpunit.xml`
 - `TestHelpers` trait
 - `Hash::setRounds(5)` in `TestCase.php` for tests speed up
 - `DatabaseTestCase.php` for really fast tests which use database
