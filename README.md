@@ -19,7 +19,6 @@ composer create-project melihovv/laravel-starter-kit super-project
 - sqlite database connection for in-memory tests by default in `phpunit.xml`
 - `TestHelpers` trait
 - `Hash::setRounds(5)` in `TestCase.php` for tests speed up
-- `DatabaseTestCase.php` for really fast tests which use database
 - additional helpers
 - custom configs for phpmd and phpcs
 - abstract `FormRequest` class
