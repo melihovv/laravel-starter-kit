@@ -15,6 +15,8 @@ if (!function_exists('get_current_action')) {
 
         return $action;
     }
+} else {
+    throw new RuntimeException('get_current_action name is already taken');
 }
 
 if (!function_exists('controller_action')) {
@@ -31,4 +33,7 @@ if (!function_exists('controller_action')) {
     {
         return "\\$class@$action";
     }
+} else {
+    throw new RuntimeException('controller_action name is already taken');
 }
+
