@@ -36,4 +36,3 @@ if (!function_exists('controller_action')) {
 } else {
     throw new RuntimeException('controller_action name is already taken');
 }
-
