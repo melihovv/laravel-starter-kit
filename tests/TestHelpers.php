@@ -8,15 +8,16 @@ use Mockery\MockInterface;
 trait TestHelpers
 {
     /**
+     * Mock class and replace it in container.
+     *
      * @param string $class
      *
      * @return MockInterface
      */
-    protected function mock($class)
+    protected function mockInstance($class)
     {
-        $mock = Mockery::mock($class);
-        $this->app->instance($class, $mock);
-
-        return $mock;
+        return tap(Mockery::mock($class), function ($mock) use ($class) {
+            $this->app->instance($class, $mock);
+        });
     }
 }
