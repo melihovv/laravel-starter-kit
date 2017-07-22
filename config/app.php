@@ -168,7 +168,6 @@ return [
          */
         Melihovv\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Melihovv\LaravelEnvValidator\ServiceProvider::class,
-        Melihovv\LaravelPackageGenerator\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -246,6 +245,7 @@ return [
         PrettyRoutes\ServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Laravel\Tinker\TinkerServiceProvider::class,
+        Melihovv\LaravelPackageGenerator\ServiceProvider::class,
 
     ],
 
