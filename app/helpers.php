@@ -19,20 +19,20 @@ if (!function_exists('get_current_action')) {
     throw new RuntimeException('get_current_action name is already taken');
 }
 
-if (!function_exists('controller_action')) {
+if (!function_exists('class_action')) {
     /**
      * Get conroller action.
      *
      * ```php
-     * controller_action(\App\Http\Controllers\HomeController::class, 'index');
+     * class_action(\App\Http\Controllers\HomeController::class, 'index');
      * ```
      *
      * @return string
      */
-    function controller_action($class, $action)
+    function class_action($class, $action)
     {
         return "\\$class@$action";
     }
 } else {
-    throw new RuntimeException('controller_action name is already taken');
+    throw new RuntimeException('class_action name is already taken');
 }
