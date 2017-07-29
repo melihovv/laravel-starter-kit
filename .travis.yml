@@ -17,6 +17,8 @@ before_install:
 
 install:
   - travis_retry composer install --no-suggest --prefer-dist -n -o
+  - cp .env.example .env
+  - php artisan key:generate
 #  - composer require satooshi/php-coveralls --dev
 
 script:
