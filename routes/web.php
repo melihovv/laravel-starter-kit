@@ -11,11 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/logs', [
     'uses' => '\Melihovv\LaravelLogViewer\LaravelLogViewerController@index',
     'as' => 'logs',
 ]);
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
