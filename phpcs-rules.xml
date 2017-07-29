@@ -6,4 +6,7 @@
   <exclude-pattern>*/database/*</exclude-pattern>
 
   <rule ref="PSR2"/>
+  <rule ref="PSR1.Files.SideEffects">
+    <exclude-pattern>app/helpers.php</exclude-pattern>
+  </rule>
 </ruleset>
