@@ -1,5 +1,7 @@
 # laravel-starter-kit
+[![Build Status](https://travis-ci.org/melihovv/laravel-starter-kit.svg?branch=master)](https://travis-ci.org/melihovv/laravel-starter-kit)
 [![styleci](https://styleci.io/repos/67811396/shield)](https://styleci.io/repos/67811396)
+
 [![Packagist](https://img.shields.io/packagist/v/melihovv/laravel-starter-kit.svg)](https://packagist.org/packages/melihovv/laravel-starter-kit)
 [![Packagist](https://poser.pugx.org/melihovv/laravel-starter-kit/d/total.svg)](https://packagist.org/packages/melihovv/laravel-starter-kit)
 [![Packagist](https://img.shields.io/packagist/l/melihovv/laravel-starter-kit.svg)](https://packagist.org/packages/melihovv/laravel-starter-kit)
