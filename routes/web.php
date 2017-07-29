@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/logs', [
     'uses' => '\Melihovv\LaravelLogViewer\LaravelLogViewerController@index',
     'as' => 'logs',

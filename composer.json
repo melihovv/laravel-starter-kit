@@ -7,7 +7,7 @@
         "php": ">=5.6.4",
         "illuminated/console-mutex": "^1.2",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "^1.0",
+        "laravel/tinker": "~1.0",
         "melihovv/laravel-env-validator": "^1.0",
         "melihovv/laravel-log-viewer": "1.2.*"
     },
@@ -20,7 +20,7 @@
         "melihovv/laravel-package-generator": "^0.0.1",
         "mockery/mockery": "0.9.*",
         "phpmd/phpmd": "^2.4",
-        "phpunit/phpunit": "~5.0",
+        "phpunit/phpunit": "~5.7",
         "sebastian/phpcpd": "^3.0",
         "squizlabs/php_codesniffer": "^2.7",
         "symfony/css-selector": "3.1.*",
@@ -28,7 +28,8 @@
     },
     "autoload": {
         "classmap": [
-            "database"
+            "database/seeds",
+            "database/factories"
         ],
         "psr-4": {
             "App\\": "app/"
@@ -59,7 +60,6 @@
             "php artisan post-update-cmd",
             "php artisan optimize"
         ],
-        "test": "composer run phpcs && composer run phpmd && composer run phpunit",
         "phpunit": "phpunit",
         "phpmd": "phpmd app/ text ./phpmd-rules.xml",
         "phpcs": "phpcs --standard=./phpcs-rules.xml --encoding=utf-8 app/",
