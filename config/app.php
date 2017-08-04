@@ -166,6 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Laravel\Tinker\TinkerServiceProvider::class,
         Melihovv\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Melihovv\LaravelEnvValidator\ServiceProvider::class,
 
@@ -244,7 +245,6 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         PrettyRoutes\ServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
-        Laravel\Tinker\TinkerServiceProvider::class,
         Melihovv\LaravelPackageGenerator\ServiceProvider::class,
 
     ],
