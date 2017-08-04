@@ -18,11 +18,11 @@ return [
         'MAIL_PORT' => 'required',
         'MAIL_USERNAME' => 'required',
         'MAIL_PASSWORD' => 'required',
-        'MAIL_ENCRYPTION' => 'required|nullable',
+        'MAIL_ENCRYPTION' => 'nullable',
         'MAIL_FROM_ADDRESS' => 'required|email',
         'MAIL_FROM_NAME' => 'required',
 
-        'BROADCAST_DRIVER' => 'in:pusher,redis,log,null',
+        'BROADCAST_DRIVER' => 'nullable|in:pusher,redis,log,null',
         'CACHE_DRIVER' => 'in:apc,array,database,file,memcached,redis',
         'SESSION_DRIVER' => 'in:file,cookie,database,apc,memcached,redis,array',
         'QUEUE_DRIVER' => 'in:sync,database,beanstalkd,sqs,redis,null',
