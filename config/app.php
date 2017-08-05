@@ -169,6 +169,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         Melihovv\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         Melihovv\LaravelEnvValidator\ServiceProvider::class,
+        Spatie\Backup\BackupServiceProvider::class,
 
         /*
          * Application Service Providers...
