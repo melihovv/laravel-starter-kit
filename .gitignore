@@ -17,3 +17,5 @@
 /public/mix-manifest.json
 /public/storage
 /storage/*.key
+npm-debug.log
+yarn-error.log
