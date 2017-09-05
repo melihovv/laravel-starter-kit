@@ -27,7 +27,6 @@ composer create-project melihovv/laravel-starter-kit super-project
 - abstract console `Command` class
 - commands to run phpunit tests, phpmd, phpcs and phpcpd analysis
 - don't allow mocking of non existent methods ([Mockery](http://docs.mockery.io/en/latest/reference/mockery/configuration.html))
-- DisablesExceptionHandling trait (thanks to [adamwathan](https://gist.github.com/adamwathan/125847c7e3f16b88fa33a9f8b42333da))
 
 ## Installed packages
 - [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
