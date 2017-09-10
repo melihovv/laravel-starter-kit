@@ -17,7 +17,7 @@ use Illuminate\Database\Eloquent\Factory;
 /**
  * @var Factory $factory
  */
-$factory->define(App\User::class, function (Faker $faker) {
+$factory->define(App\Models\User::class, function (Faker $faker) {
     static $password;
 
     return [
