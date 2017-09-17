@@ -2,6 +2,6 @@
 
 namespace App\Console\Commands;
 
-abstract class Command extends Illuminate\Console\Command
+abstract class Command extends \Illuminate\Console\Command
 {
 }
