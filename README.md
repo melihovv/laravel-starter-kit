@@ -36,7 +36,6 @@ composer create-project melihovv/laravel-starter-kit super-project
 - [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages
 - [melihovv/laravel-log-viewer](https://github.com/melihovv/laravel-log-viewer) - Go to `/logs`
 - [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`
-- [spatie/laravel-backup](https://github.com/spatie/laravel-backup) - Database backups for your laravel app
 
 ## Things you may do manually
 - name of your app in `config/app.php`
