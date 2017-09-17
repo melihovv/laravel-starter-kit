@@ -63,11 +63,6 @@ return [
             'bucket' => env('AWS_BUCKET'),
         ],
 
-        'backups' => [
-            'driver' => 'local',
-            'root' => storage_path('app/backups'),
-        ],
-
     ],
 
 ];
