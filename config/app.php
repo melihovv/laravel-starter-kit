@@ -167,10 +167,6 @@ return [
         /*
          * Package Service Providers...
          */
-        Laravel\Tinker\TinkerServiceProvider::class,
-        Melihovv\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
-        Melihovv\LaravelEnvValidator\ServiceProvider::class,
-        Spatie\Backup\BackupServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -244,11 +240,6 @@ return [
 
     'local_providers' => [
 
-        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-        PrettyRoutes\ServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
-        Melihovv\LaravelPackageGenerator\ServiceProvider::class,
-
     ],
 
     /*
@@ -261,8 +252,6 @@ return [
     */
 
     'local_aliases' => [
-
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
 
