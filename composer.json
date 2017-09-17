@@ -10,7 +10,6 @@
   "require": {
     "php": ">=7.0.0",
     "fideloper/proxy": "~3.3",
-    "illuminated/console-mutex": "5.5.*",
     "laravel/framework": "5.5.*",
     "laravel/tinker": "~1.0",
     "melihovv/laravel-env-validator": "5.5.*",
