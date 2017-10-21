@@ -228,31 +228,4 @@ return [
 
     ],
 
-    /*
-    |---------------------------------------------------------------------------
-    | Local service providers
-    |---------------------------------------------------------------------------
-    |
-    | These service providers will be registered only in non production
-    | environment.
-    |
-    */
-
-    'local_providers' => [
-
-    ],
-
-    /*
-    |---------------------------------------------------------------------------
-    | Local aliases
-    |---------------------------------------------------------------------------
-    |
-    | These aliases will be registered only in non production environment.
-    |
-    */
-
-    'local_aliases' => [
-
-    ],
-
 ];
