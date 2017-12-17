@@ -28,5 +28,7 @@ return [
         'QUEUE_DRIVER' => 'in:sync,database,beanstalkd,sqs,redis,null',
         'MAIL_DRIVER' => 'in:smtp,sendmail,mailgun,mandrill,ses,' .
             'sparkpost,log,array',
+
+        'DEBUGBAR_ENABLED' => 'nullable|boolean',
     ],
 ];
