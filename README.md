@@ -19,7 +19,7 @@ composer create-project melihovv/laravel-starter-kit super-project
 - `AdditionalMethods` trait for Eloquent models
 - sqlite database connection for in-memory tests by default in `phpunit.xml`
 - `TestHelpers` trait
-- `Hash::setRounds(5)` in `TestCase.php` for tests speed up
+- `Hash::setRounds(4)` in `TestCase.php` for tests speed up
 - additional helpers
 - custom configs for phpmd and phpcs
 - abstract `FormRequest` class
@@ -36,7 +36,7 @@ composer create-project melihovv/laravel-starter-kit super-project
 - [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages
 - [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`
 
-## Things you may do manually
+## Things you may want to do manually
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
