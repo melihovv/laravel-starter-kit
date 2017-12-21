@@ -17,7 +17,7 @@ trait CreatesApplication
 
         $app->make(Kernel::class)->bootstrap();
 
-        \Hash::setRounds(5);
+        \Hash::setRounds(4);
 
         return $app;
     }
