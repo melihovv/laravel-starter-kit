@@ -1,9 +1,4 @@
-/.idea/
-
-## File-based project format:
-*.ipr
-*.iws
-
+/.idea
 /vendor
 /node_modules
 /.env
