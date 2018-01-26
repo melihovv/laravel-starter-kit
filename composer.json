@@ -76,6 +76,9 @@
     "phpcpd": "phpcpd app/"
   },
   "config": {
+    "platform": {
+        "php": "7.0"
+    },
     "preferred-install": "dist",
     "sort-packages": true,
     "optimize-autoloader": true
