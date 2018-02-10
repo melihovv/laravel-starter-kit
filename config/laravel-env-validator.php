@@ -3,9 +3,11 @@
 return [
     'live_validation' => false,
     'rules' => [
+        'APP_NAME' => 'required|string',
         'APP_ENV' => 'in:local,production',
-        'APP_KEY' => 'required',
+        'APP_KEY' => 'required|string',
         'APP_DEBUG' => 'boolean',
+        'APP_URL' => 'required|url',
 
         'DB_CONNECTION' => 'required',
         'DB_HOST' => 'required',
@@ -21,13 +23,13 @@ return [
         'MAIL_ENCRYPTION' => 'nullable',
         'MAIL_FROM_ADDRESS' => 'required|email',
         'MAIL_FROM_NAME' => 'required',
+        'MAIL_DRIVER' => 'in:smtp,sendmail,mailgun,mandrill,ses,sparkpost,log,array',
 
         'BROADCAST_DRIVER' => 'nullable|in:pusher,redis,log,null',
         'CACHE_DRIVER' => 'in:apc,array,database,file,memcached,redis',
         'SESSION_DRIVER' => 'in:file,cookie,database,apc,memcached,redis,array',
         'QUEUE_DRIVER' => 'in:sync,database,beanstalkd,sqs,redis,null',
-        'MAIL_DRIVER' => 'in:smtp,sendmail,mailgun,mandrill,ses,' .
-            'sparkpost,log,array',
+        'LOG_CHANNEL' => 'in:single,daily,slack,syslog,errorlog,custom,stack',
 
         'DEBUGBAR_ENABLED' => 'nullable|boolean',
     ],
