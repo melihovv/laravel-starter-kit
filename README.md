@@ -30,8 +30,8 @@ composer create-project melihovv/laravel-starter-kit super-project
 
 ## Installed packages
 - [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
-- [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel
+- [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
 - [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
 - [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages
 - [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`
