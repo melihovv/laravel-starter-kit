@@ -29,8 +29,9 @@ composer create-project melihovv/laravel-starter-kit super-project
 - required extensions in composer.json
 
 ## Installed packages
-- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
+- [adamwathan/laravel-preset](https://github.com/adamwathan/laravel-preset) [dev] - Adam Wathan laravel preset.
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel
+- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
 - [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
 - [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
 - [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages
