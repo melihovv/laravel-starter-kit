@@ -19,7 +19,6 @@ composer create-project melihovv/laravel-starter-kit super-project
 - `AdditionalMethods` trait for Eloquent models
 - sqlite database connection for in-memory tests by default in `phpunit.xml`
 - `TestHelpers` trait
-- `Hash::setRounds(4)` in `TestCase.php` for tests speed up
 - additional helpers
 - custom configs for phpmd and phpcs
 - abstract `FormRequest` class

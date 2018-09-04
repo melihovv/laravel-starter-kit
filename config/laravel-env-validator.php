@@ -28,7 +28,7 @@ return [
         'BROADCAST_DRIVER' => 'nullable|in:pusher,redis,log,null',
         'CACHE_DRIVER' => 'in:apc,array,database,file,memcached,redis',
         'SESSION_DRIVER' => 'in:file,cookie,database,apc,memcached,redis,array',
-        'QUEUE_DRIVER' => 'in:sync,database,beanstalkd,sqs,redis,null',
+        'QUEUE_CONNECTION' => 'in:sync,database,beanstalkd,sqs,redis,null',
         'LOG_CHANNEL' => 'in:single,daily,slack,syslog,errorlog,custom,stack',
 
         'DEBUGBAR_ENABLED' => 'nullable|boolean',
