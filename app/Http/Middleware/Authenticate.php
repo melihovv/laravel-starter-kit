@@ -12,6 +12,8 @@ class Authenticate extends Middleware
      * @param \Illuminate\Http\Request $request
      *
      * @return string
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     protected function redirectTo($request)
     {
