@@ -10,7 +10,7 @@ abstract class TestCase extends BaseTestCase
     use TestHelpers;
     use CreatesApplication;
 
-    protected function setUp()
+    protected function setUp() : void
     {
         parent::setUp();
 
