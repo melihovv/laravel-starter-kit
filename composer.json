@@ -83,8 +83,6 @@
     "phpcbf": "phpcbf --standard=./phpcs-rules.xml --encoding=utf-8 app/",
     "phpcpd": "phpcpd app/"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "config": {
     "platform": {
         "php": "7.1.3"
