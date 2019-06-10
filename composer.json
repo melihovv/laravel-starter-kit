@@ -30,7 +30,6 @@
     "melihovv/laravel-package-generator": "5.8.*",
     "mockery/mockery": "^1.0",
     "nunomaduro/collision": "^3.0",
-    "phpmd/phpmd": "^2.6",
     "phpunit/phpunit": "^7.5",
     "sebastian/phpcpd": "^4.0",
     "squizlabs/php_codesniffer": "^3.0"
@@ -78,7 +77,6 @@
       "@php artisan package:discover --ansi"
     ],
     "phpunit": "phpunit",
-    "phpmd": "phpmd app/ text ./phpmd-rules.xml",
     "phpcs": "phpcs --standard=./phpcs-rules.xml --encoding=utf-8 app/",
     "phpcbf": "phpcbf --standard=./phpcs-rules.xml --encoding=utf-8 app/",
     "phpcpd": "phpcpd app/"

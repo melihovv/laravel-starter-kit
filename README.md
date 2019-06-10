@@ -20,10 +20,10 @@ composer create-project melihovv/laravel-starter-kit super-project
 - sqlite database connection for in-memory tests by default in `phpunit.xml`
 - `TestHelpers` trait
 - additional helpers
-- custom configs for phpmd and phpcs
+- custom configs for phpcs
 - abstract `FormRequest` class
 - abstract console `Command` class
-- commands to run phpunit tests, phpmd, phpcs and phpcpd analysis
+- commands to run phpunit tests, phpcs and phpcpd analysis
 - don't allow mocking of non existent methods ([Mockery](http://docs.mockery.io/en/latest/reference/mockery/configuration.html))
 - required extensions in composer.json
 
@@ -40,5 +40,5 @@ composer create-project melihovv/laravel-starter-kit super-project
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
 - enable laravel-plugin in PhpStorm
-- enable phpmd and phpcs inspections in PhpStorm
+- enable phpcs inspections in PhpStorm
 - configure phpunit in PhpStorm

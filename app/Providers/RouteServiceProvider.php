@@ -48,8 +48,6 @@ class RouteServiceProvider extends ServiceProvider
      * These routes all receive session state, CSRF protection, etc.
      *
      * @return void
-     *
-     * @SuppressWarnings(PHPMD.UnusedLocalVariable)
      */
     protected function mapWebRoutes()
     {
@@ -64,8 +62,6 @@ class RouteServiceProvider extends ServiceProvider
      * These routes are typically stateless.
      *
      * @return void
-     *
-     * @SuppressWarnings(PHPMD.UnusedLocalVariable)
      */
     protected function mapApiRoutes()
     {
