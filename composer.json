@@ -20,7 +20,6 @@
     "melihovv/laravel-env-validator": "5.8.*"
   },
   "require-dev": {
-    "adamwathan/laravel-preset": "dev-master",
     "barryvdh/laravel-debugbar": "^3.2",
     "barryvdh/laravel-ide-helper": "^2.6",
     "beyondcode/laravel-dump-server": "^1.0",
