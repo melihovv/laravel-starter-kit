@@ -30,12 +30,11 @@
     "garygreen/pretty-routes": "^1.0.4",
     "melihovv/laravel-package-generator": "5.8.*",
     "mockery/mockery": "^1.0",
-    "nunomaduro/collision": "^2.0",
+    "nunomaduro/collision": "^3.0",
     "phpmd/phpmd": "^2.6",
     "phpunit/phpunit": "^7.5",
     "sebastian/phpcpd": "^4.0",
-    "squizlabs/php_codesniffer": "^3.0",
-    "symfony/thanks": "^1.0"
+    "squizlabs/php_codesniffer": "^3.0"
   },
   "repositories": [
     {
