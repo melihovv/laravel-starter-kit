@@ -15,5 +15,6 @@ Artisan::command('post-update-cmd', function () {
     if (App::environment() !== 'production') {
         Artisan::call('ide-helper:generate');
         Artisan::call('ide-helper:meta');
+        Artisan::call('ide-helper:models -N');
     }
 })->describe('Runs artisan commands which must run only in not production mode');
