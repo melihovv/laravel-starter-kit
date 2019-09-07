@@ -9,8 +9,6 @@
   "type": "project",
   "require": {
     "php": "^7.2",
-    "ext-mbstring": "*",
-    "ext-openssl": "*",
     "ext-pdo": "*",
     "ext-tokenizer": "*",
     "ext-xml": "*",
