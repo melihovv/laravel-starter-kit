@@ -37,6 +37,7 @@ composer create-project melihovv/laravel-starter-kit super-project
 - [lorisleiva/laravel-actions](https://github.com/lorisleiva/laravel-actions) - Authorize, validate and execute in one place
 - [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`
 - [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages
+- [spatie/laravel-web-tinker](https://github.com/spatie/laravel-web-tinker) [dev] - Artisan Tinker in your browser
 
 ## Things you may want to do manually
 - name of your app in `config/app.php`
