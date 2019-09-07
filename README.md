@@ -33,6 +33,7 @@ composer create-project melihovv/laravel-starter-kit super-project
 - [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
 - [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
 - [laravel/telescope](https://github.com/laravel/telecope) [dev] - Elegant debug assistant.
+- [laravel/ui](https://github.com/laravel/ui) [dev] - Generate ui for laravel.
 - [lorisleiva/laravel-actions](https://github.com/lorisleiva/laravel-actions) - Authorize, validate and execute in one place
 - [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`
 - [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages
