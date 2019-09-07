@@ -177,10 +177,10 @@ return [
     | Cast the given "real type" to the given "type".
     |
     */
-    'type_overrides' => array(
+    'type_overrides' => [
         'integer' => 'int',
         'boolean' => 'bool',
-    ),
+    ],
 
     /*
     |--------------------------------------------------------------------------
