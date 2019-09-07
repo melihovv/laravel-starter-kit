@@ -12,6 +12,7 @@
     "ext-pdo": "*",
     "ext-tokenizer": "*",
     "ext-xml": "*",
+    "beyondcode/laravel-self-diagnosis": "^1.3",
     "fideloper/proxy": "^4.0",
     "laravel/framework": "^6.0",
     "laravel/tinker": "^1.0",

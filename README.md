@@ -30,6 +30,7 @@ composer create-project melihovv/laravel-starter-kit super-project
 ## Installed packages
 - [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel
 - [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
+- [beyondcode/laravel-self-diagnosis](https://github.com/beyondcode/laravel-self-diagnosis) - Perform self-diagnosis tests on your laravel application
 - [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
 - [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
 - [laravel/telescope](https://github.com/laravel/telecope) [dev] - Elegant debug assistant.
