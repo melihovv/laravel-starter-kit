@@ -14,6 +14,44 @@ return [
     'filename'  => '_ide_helper',
     'format'    => 'php',
 
+    'meta_filename' => '.phpstorm.meta.php',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Fluent helpers
+    |--------------------------------------------------------------------------
+    |
+    | Set to true to generate commonly used Fluent methods
+    |
+    */
+    'include_fluent' => false,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Write Model Magic methods
+    |--------------------------------------------------------------------------
+    |
+    | Set to false to disable write magic methods of model
+    |
+    */
+
+    'write_model_magic_where' => true,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Write Eloquent Model Mixins
+    |--------------------------------------------------------------------------
+    |
+    | This will add the necessary DocBlock mixins to the model class
+    | contained in the Laravel Framework. This helps the IDE with
+    | auto-completion.
+    |
+    | Please be aware that this setting changes a file within the /vendor directory.
+    |
+    */
+
+    'write_eloquent_model_mixins' => false,
+
     /*
     |--------------------------------------------------------------------------
     | Helper files to include
@@ -59,18 +97,7 @@ return [
         'Session' => ['Illuminate\Session\Store'],
     ],
 
-    'magic' => [
-        'Log' => [
-            'debug'     => 'Monolog\Logger::addDebug',
-            'info'      => 'Monolog\Logger::addInfo',
-            'notice'    => 'Monolog\Logger::addNotice',
-            'warning'   => 'Monolog\Logger::addWarning',
-            'error'     => 'Monolog\Logger::addError',
-            'critical'  => 'Monolog\Logger::addCritical',
-            'alert'     => 'Monolog\Logger::addAlert',
-            'emergency' => 'Monolog\Logger::addEmergency',
-        ],
-    ],
+    'magic' => [],
 
     /*
     |--------------------------------------------------------------------------
@@ -141,5 +168,30 @@ return [
      |
      */
     'model_camel_case_properties' => false,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Property Casts
+    |--------------------------------------------------------------------------
+    |
+    | Cast the given "real type" to the given "type".
+    |
+    */
+    'type_overrides' => array(
+        'integer' => 'int',
+        'boolean' => 'bool',
+    ),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Include DocBlocks from classes
+    |--------------------------------------------------------------------------
+    |
+    | Include DocBlocks from classes to allow additional code inspection for
+    | magic methods and properties.
+    |
+    */
+
+    'include_class_docblocks' => false,
 
 ];
