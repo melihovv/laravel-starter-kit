@@ -28,17 +28,17 @@ composer create-project melihovv/laravel-starter-kit super-project
 - required extensions in composer.json
 
 ## Installed packages
-- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel
-- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE
-- [beyondcode/laravel-self-diagnosis](https://github.com/beyondcode/laravel-self-diagnosis) - Perform self-diagnosis tests on your laravel application
-- [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it
-- [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`
+- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel.
+- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE `php artisan post-update-cmd`.
+- [beyondcode/laravel-self-diagnosis](https://github.com/beyondcode/laravel-self-diagnosis) - Perform self-diagnosis tests on your laravel application `php artisan self-diagnosis`.
+- [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it.
+- [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`.
 - [laravel/telescope](https://github.com/laravel/telecope) [dev] - Elegant debug assistant.
-- [laravel/ui](https://github.com/laravel/ui) [dev] - Generate ui for laravel.
-- [lorisleiva/laravel-actions](https://github.com/lorisleiva/laravel-actions) - Authorize, validate and execute in one place
-- [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`
-- [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages
-- [spatie/laravel-web-tinker](https://github.com/spatie/laravel-web-tinker) [dev] - Artisan Tinker in your browser
+- [laravel/ui](https://github.com/laravel/ui) [dev] - Generate ui for laravel `php artisan ui vue --auth`.
+- [lorisleiva/laravel-actions](https://github.com/lorisleiva/laravel-actions) - Authorize, validate and execute in one place.
+- [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`.
+- [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages `php artisan package:new -i Vendor PackageName`.
+- [spatie/laravel-web-tinker](https://github.com/spatie/laravel-web-tinker) [dev] - Artisan Tinker in your browser. Go to `/tinker`.
 
 ## Things you may want to do manually
 - name of your app in `config/app.php`
