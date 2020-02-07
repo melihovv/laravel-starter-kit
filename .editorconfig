@@ -14,5 +14,5 @@ indent_style = tab
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{blade.php,html,css,json,yml,yaml,xml,js,css,scss}]
+[*.{blade.php,html,json,yml,yaml,xml,js,css,scss}]
 indent_size = 2
