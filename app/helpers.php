@@ -1,6 +1,6 @@
 <?php
 
-if (! function_exists('get_current_action')) {
+if (!function_exists('get_current_action')) {
     /**
      * Get action name for the current route.
      *
@@ -19,7 +19,7 @@ if (! function_exists('get_current_action')) {
     throw new RuntimeException('get_current_action name is already taken');
 }
 
-if (! function_exists('class_action')) {
+if (!function_exists('class_action')) {
     /**
      * Get conroller action.
      *
