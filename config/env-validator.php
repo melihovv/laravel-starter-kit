@@ -23,7 +23,7 @@ return [
         'MAIL_ENCRYPTION' => 'nullable',
         'MAIL_FROM_ADDRESS' => 'required|email',
         'MAIL_FROM_NAME' => 'required',
-        'MAIL_DRIVER' => 'in:smtp,sendmail,mailgun,mandrill,ses,sparkpost,log,array',
+        'MAIL_MAILER' => 'in:smtp,sendmail,mailgun,mandrill,ses,sparkpost,log,array',
 
         'BROADCAST_DRIVER' => 'nullable|in:pusher,redis,log,null',
         'CACHE_DRIVER' => 'in:apc,array,database,file,memcached,redis',
@@ -32,5 +32,6 @@ return [
         'LOG_CHANNEL' => 'in:single,daily,slack,syslog,errorlog,custom,stack',
 
         'DEBUGBAR_ENABLED' => 'nullable|boolean',
+        'VIEW_CHECK_EXPIRATION' => 'required|boolean'
     ],
 ];
