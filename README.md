@@ -1,5 +1,5 @@
 # laravel-starter-kit
-[![Build Status](https://travis-ci.org/melihovv/laravel-starter-kit.svg?branch=master)](https://travis-ci.org/melihovv/laravel-starter-kit)
+[![GitHub Workflow Status](https://github.com/melihovv/laravel-starter-kit/workflows/Default/badge.svg)](https://github.com/melihovv/laravel-starter-kit/actions)
 [![styleci](https://styleci.io/repos/67811396/shield)](https://styleci.io/repos/67811396)
 
 [![Packagist](https://img.shields.io/packagist/v/melihovv/laravel-starter-kit.svg)](https://packagist.org/packages/melihovv/laravel-starter-kit)
@@ -28,23 +28,19 @@ composer create-project melihovv/laravel-starter-kit super-project
 - required extensions in composer.json
 
 ## Installed packages
-- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) [dev] - Integrates PHP Debug Bar to laravel.
-- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) [dev] - Laravel support for your IDE `php artisan post-update-cmd`.
-- [beyondcode/laravel-self-diagnosis](https://github.com/beyondcode/laravel-self-diagnosis) - Perform self-diagnosis tests on your laravel application `php artisan self-diagnosis`.
-- [doctrine/dbal](https://github.com/doctrine/dbal) [dev] - laravel-ide-helper requires it.
-- [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) [dev] - Go to `/routes`.
-- [laravel/telescope](https://github.com/laravel/telecope) [dev] - Elegant debug assistant.
-- [laravel/ui](https://github.com/laravel/ui) [dev] - Generate ui for laravel `php artisan ui vue --auth`.
+- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) `[dev]` - Integrates PHP Debug Bar to laravel.
+- [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) `[dev]` - Laravel support for your IDE `php artisan post-update-cmd`.
+- [doctrine/dbal](https://github.com/doctrine/dbal) `[dev]` - laravel-ide-helper requires it.
+- [garygreen/pretty-routes](https://github.com/garygreen/pretty-routes) `[dev]` - Go to `/routes`.
+- [laravel/telescope](https://github.com/laravel/telecope) `[dev]` - Elegant debug assistant.
+- [laravel/ui](https://github.com/laravel/ui) - Generate ui for laravel `php artisan ui vue --auth`.
 - [lorisleiva/laravel-actions](https://github.com/lorisleiva/laravel-actions) - Authorize, validate and execute in one place.
 - [melihovv/laravel-env-validator](https://github.com/melihovv/laravel-env-validator) - Validate your .env file `php artisan config:env-validator`.
-- [melihovv/laravel-package-generator](https://github.com/melihovv/laravel-package-generator) [dev] - Quickly scaffold new laravel packages `php artisan package:new -i Vendor PackageName`.
-- [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) [dev] - `php artisan generate:model-factory --dir app/Models -- User Team`
-- [spatie/laravel-web-tinker](https://github.com/spatie/laravel-web-tinker) [dev] - Artisan Tinker in your browser. Go to `/tinker`.
+- [melihovv/laravel-starter-kit](https://github.com/melihovv/laravel-starter-kit) `[dev]` - Quickly scaffold new laravel packages `php artisan package:new -i Vendor PackageName`.
+- [mpociot/laravel-test-factory-helper](https://github.com/mpociot/laravel-test-factory-helper) `[dev]` - `php artisan generate:model-factory --dir app/Models -- User Team`
 
 ## Things you may want to do manually
 - name of your app in `config/app.php`
 - `timezone` in `config/app.php`
 - `locale` in `config/app.php`
 - enable laravel-plugin in PhpStorm
-- enable phpcs inspections in PhpStorm
-- configure phpunit in PhpStorm

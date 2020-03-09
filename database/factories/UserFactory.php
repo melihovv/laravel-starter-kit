@@ -22,10 +22,10 @@ $factory->define(App\Models\User::class, function (Faker $faker) {
     static $password;
 
     return [
-        'name' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
+        'name'              => $faker->name,
+        'email'             => $faker->unique()->safeEmail,
         'email_verified_at' => now(),
-        'password' => $password ?: $password = bcrypt('secret'),
-        'remember_token' => Str::random(10),
+        'password'          => $password ?: $password = bcrypt('secret'),
+        'remember_token'    => Str::random(10),
     ];
 });
