@@ -4,14 +4,13 @@ on: [push]
 
 jobs:
   tests:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
         php: [7.4, 7.3, 7.2]
-        os: [ubuntu-latest, windows-latest]
 
-    name: P${{ matrix.php }} - ${{ matrix.os }}
+    name: P${{ matrix.php }}
 
     steps:
       - uses: actions/checkout@v1
